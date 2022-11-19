@@ -1,4 +1,4 @@
-# monorepo-pnpm
+# monorepo-pnpm4
 
 期望：使用monorepo+pnpm实现不同项目对公用组件的引用，当然这包括公共的方法，组件等。
 
