@@ -1,0 +1,20 @@
+{
+  "name": "@rf/tools",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "4",
+    "webpack-cli": "4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "8",
+    "lodash-es": "^4.17.21"
+  }
+}

@@ -1,13 +1,36 @@
 <template>
   <div id="app">
+    hello world
     <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
+// import {
+//   isUndef,
+//   increment,
+//   decrement
+// } from '@rf/tools/index-demo.js'
+
+import {
+  add
+} from '@rf/tools'
+
 export default {
-  name: 'App'
+  name: 'App',
+  created () {
+    // const name = 'xiaoming'
+    // console.log(isUndef(name))
+    // console.log(increment)
+    // console.log(increment(56))
+    // const decrement2 = x => x - 222
+    // console.log(decrement)
+    // console.log(decrement2)
+
+    console.log(add)
+    console.log(add(18))
+  }
 }
 </script>
 

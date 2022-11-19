@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    hello vue-project2
     <img src="./assets/logo.png">
     <router-view/>
   </div>
