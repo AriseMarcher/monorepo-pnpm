@@ -129,7 +129,6 @@ importers:
       webpack-merge: ^4.1.0
   packages/vue-project2:
     dependencies:
-      '@rf/tools': 'link:../../tools'
       vue: 2.7.14
       vue-hot-reload-api: 2.3.4
       vue-router: 3.6.5
@@ -191,7 +190,6 @@ importers:
       webpack-dev-server: 2.11.5_webpack@3.12.0
       webpack-merge: 4.2.2
     specifiers:
-      '@rf/tools': 'workspace:^1.0.0'
       autoprefixer: ^7.1.2
       babel-core: ^6.22.1
       babel-eslint: ^8.2.1
