@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\arise-codes\\monorepo-pnpm\\project-pnpm4"
+  },
+  "1 error pnpm": {
+    "message": {
+      "errno": 3221225786,
+      "code": "ELIFECYCLE",
+      "pkgid": "vue-project2@1.0.0",
+      "stage": "dev",
+      "script": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+      "pkgname": "vue-project2"
+    },
+    "err": {
+      "name": "Error",
+      "message": "vue-project2@1.0.0 dev: `webpack-dev-server --inline --progress --config build/webpack.dev.conf.js`\nExit status 3221225786",
+      "code": "ELIFECYCLE",
+      "stack": "Error: vue-project2@1.0.0 dev: `webpack-dev-server --inline --progress --config build/webpack.dev.conf.js`\nExit status 3221225786\n    at EventEmitter.<anonymous> (D:\\arise-dev-env\\nvm\\v16.12.0\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\index.js:302:16)\n    at EventEmitter.emit (node:events:390:28)\n    at ChildProcess.<anonymous> (D:\\arise-dev-env\\nvm\\v16.12.0\\node_modules\\pnpm\\lib\\node_modules\\@zkochan\\npm-lifecycle\\lib\\spawn.js:55:14)\n    at ChildProcess.emit (node:events:390:28)\n    at maybeClose (node:internal/child_process:1064:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:301:5)"
+    }
+  }
+}
