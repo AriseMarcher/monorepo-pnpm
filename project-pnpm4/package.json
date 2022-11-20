@@ -4,5 +4,9 @@
   "description": "node 10.13.3 + pnpm4",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "build": "pnpm run --filter vue-project1 build & pnpm run --filter vue-project2 build",
+    "parallel-build": "pnpm run --filter vue-project1 --filter vue-project2 build"
+  }
 }
