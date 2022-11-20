@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     hello world
+    <HelloWorld></HelloWorld>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -12,13 +13,16 @@
 //   increment,
 //   decrement
 // } from '@rf/tools/index-demo.js'
-
+import { HelloWorld } from '@rf/components'
 import {
   add
 } from '@rf/tools'
 
 export default {
   name: 'App',
+  components: {
+    HelloWorld
+  },
   created () {
     // const name = 'xiaoming'
     // console.log(isUndef(name))
